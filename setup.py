@@ -25,7 +25,7 @@ test_requirements = [
 
 setup(
     name='cacheproperty',
-    version='0.1.0',
+    version='0.1.1',
     description="A subclass of python's builtin property class that removes boilerplate by implementing the h_hidden_attribute pattern with a single decorator call. Also afacilitates invalidation of the cached hidden attribute with a @cacheproperty.invalidate decorator on any other methods or properties in a class.",
     long_description=readme + '\n\n' + history,
     author="Matthew Hawthorn",
