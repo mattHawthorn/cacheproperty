@@ -20,7 +20,7 @@ cacheproperty
 
 
 
-A subclass of python's builtin property class that removes boilerplate by implementing the h_hidden_attribute pattern with a single decorator call. Also afacilitates invalidation of the cached hidden attribute with a @cacheproperty.invalidate decorator on any other methods or properties in a class.
+A subclass of python's builtin property class that removes boilerplate by implementing the _hidden_attribute pattern with a single decorator call. Also facilitates invalidation of the cached hidden attribute with a `@cacheproperty.invalidate` decorator on any other methods or properties in a class.
 
 
 * Free software: GNU General Public License v3
